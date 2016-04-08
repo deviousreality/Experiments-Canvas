@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+		
+    <canvas id="myCanvas" class="surface" ></canvas>
+
+    <script src="canvas1.js"></script>
+	
+	<script type="application/javascript">
+		var options = {
+			/*size: getInt(lineSize),
+			color: $(lineColor).val()*/
+		}
+		
+		surface.Repeat("myCanvas", {
+			fullscreen: true,
+			cell : {
+				fillcolor:fill3,
+				xspacing:3,
+				yspacing:3,
+				angle:0
+			}
+		});
+
+	</script>
+</body>
+</html>
